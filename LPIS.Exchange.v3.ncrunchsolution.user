@@ -1,0 +1,39 @@
+﻿<SolutionConfiguration>
+  <Settings>
+    <AutoEnable>True</AutoEnable>
+    <CurrentEngineMode>Run all tests automatically [Global]</CurrentEngineMode>
+    <HotSpotsSolutionWindowMenuOptions />
+    <HotSpotsTreeLayout>
+      <Column>
+        <Name>Location</Name>
+        <Width>94</Width>
+      </Column>
+      <Column>
+        <Name>LineText</Name>
+        <Width>17</Width>
+      </Column>
+      <Column>
+        <Name>MaxExecutionTime</Name>
+        <Width>30</Width>
+      </Column>
+      <Column>
+        <Name>AverageExecutionTime</Name>
+        <Width>30</Width>
+      </Column>
+      <Column>
+        <Name>TotalExecutionTime</Name>
+        <Width>34</Width>
+      </Column>
+    </HotSpotsTreeLayout>
+    <HotSpotsWindowMenuOptions />
+    <HotSpotsWindowSplitterDistance>229</HotSpotsWindowSplitterDistance>
+    <TestsWindowMenuOptions>
+      <VerticalSplitMenuOption>false</VerticalSplitMenuOption>
+      <ShowPassingTestsMenuOption>false</ShowPassingTestsMenuOption>
+      <ShowFailingTestsMenuOption>true</ShowFailingTestsMenuOption>
+      <ShowUnexecutedTestsMenuOption>true</ShowUnexecutedTestsMenuOption>
+      <ShowIgnoredTestsMenuOption>true</ShowIgnoredTestsMenuOption>
+    </TestsWindowMenuOptions>
+    <TestsWindowSplitterDistance>521</TestsWindowSplitterDistance>
+  </Settings>
+</SolutionConfiguration>
