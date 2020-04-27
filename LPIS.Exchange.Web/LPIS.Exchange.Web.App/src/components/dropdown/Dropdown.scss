@@ -1,0 +1,57 @@
+.drop-down-container {
+  position: relative;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border-radius: 6px;
+  color: black;
+
+  &:active,
+  &:hover {
+    box-shadow: 0 2px 6px 0 rgba(15, 15, 16, 0.05);
+    background-color: #bbbbbb;
+
+    & * {
+      color: white;
+    }
+
+    & .arrow-g {
+      fill: white;
+    }
+  }
+
+  &:active {
+    background-color: #aaaaaa;
+
+    & .arrow {
+      top: calc(50% - 4px);
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.drop-down {
+  padding: 8px 36px 8px 16px;
+  appearance: none;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.arrow {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(100% - 28px);
+  height: 16px;
+  width: 16px;
+  z-index: 1;
+
+  & > svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+  }
+}
